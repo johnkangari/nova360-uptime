@@ -18,8 +18,16 @@ async function direct(url) {
 }
 
 async function json(path) {
-  const res = await fetch(`https://check-host.net${path}`, { headers: { accept: 'application/json' } });
-  return res.json();
+  const res = await fetch(`https://check-host.net${path}`, {
+    headers: { accept: 'application/json', 'user-agent': 'Mozilla/5.0 (compatible; nova360-uptime/1.0)' },
+  });
+  const body = await res.text();
+  try {
+    return JSON.parse(body);
+  } catch {
+    const title = body.match(/<title>([^<]*)/i)?.[1]?.trim() ?? body.slice(0, 80);
+    throw new Error(`check-host.net ${path} returned ${res.status}: ${title}`);
+  }
 }
 
 async function iran(url) {
