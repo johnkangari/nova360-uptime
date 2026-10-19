@@ -1,0 +1,2 @@
+time,site,ok,total,failures
+2026-10-19T05:12:59.693Z,https://me.nova360.io,6,7,"ir3:Connection timed out"
