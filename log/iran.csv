@@ -109,3 +109,4 @@ time,site,ok,total,failures
 2026-11-12T07:36:13.194Z,https://me.nova360.io,6,8,"ir1:no result ir4:Connection timed out"
 2026-11-12T16:10:58.328Z,https://me.nova360.io,7,8,"ir1:no result"
 2026-11-12T22:25:29.262Z,https://me.nova360.io,7,8,"ir1:no result"
+2026-11-13T02:50:57.173Z,https://me.nova360.io,6,8,"ir1:no result ir3:Connection timed out"
