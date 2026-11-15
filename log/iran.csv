@@ -119,3 +119,4 @@ time,site,ok,total,failures
 2026-11-14T22:54:43.701Z,https://me.nova360.io,6,7,"ir4:no result"
 2026-11-15T02:29:42.651Z,https://me.nova360.io,6,7,"ir4:no result"
 2026-11-15T09:48:02.334Z,https://me.nova360.io,7,7,""
+2026-11-15T16:53:46.079Z,https://me.nova360.io,6,7,"ir4:Connection timed out"
