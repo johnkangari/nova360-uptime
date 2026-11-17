@@ -125,3 +125,4 @@ time,site,ok,total,failures
 2026-11-16T08:28:43.049Z,https://me.nova360.io,8,8,""
 2026-11-16T18:49:49.202Z,https://me.nova360.io,8,8,""
 2026-11-17T02:24:11.476Z,https://me.nova360.io,8,8,""
+2026-11-17T11:01:29.241Z,https://me.nova360.io,7,8,"ir2:Connection timed out"
