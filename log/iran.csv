@@ -133,3 +133,4 @@ time,site,ok,total,failures
 2026-11-19T01:02:13.321Z,https://me.nova360.io,8,8,""
 2026-11-19T08:34:20.809Z,https://me.nova360.io,8,8,""
 2026-11-19T17:36:04.942Z,https://me.nova360.io,8,8,""
+2026-11-19T23:46:05.115Z,https://me.nova360.io,7,8,"ir2:No such device or address"
